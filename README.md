@@ -33,6 +33,11 @@ If you have multiple requests initiated check the urlString property in the retu
     }
 ```
 
+## Clearing cache
+```swift
+FileCache.sharedInstance.clearCacheForURL(urlString: "your-url")
+```
+
 # License
 The MIT License (MIT)
 
