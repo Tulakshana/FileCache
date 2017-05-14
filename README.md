@@ -38,6 +38,11 @@ If you have multiple requests initiated check the urlString property in the retu
 FileCache.sharedInstance.clearCacheForURL(urlString: "your-url")
 ```
 
+## Setting cache size
+```swift
+FileCache.sharedInstance.maxCacheSize = 10.0 //size in mega bytes
+```
+
 # License
 The MIT License (MIT)
 
